@@ -90,3 +90,293 @@ ERROR:root:РџСЂРѕРёР·РѕС€Р»Рѕ С‡С‚Рѕ-С‚Рѕ РІР°Р¶РЅРѕРµ
 14-Oct-22 17:12:08 INFO: Р’С‹Р±СЂР°РЅР° РѕРїС†РёСЏ Andrey: 3
 14-Oct-22 17:12:35 INFO: Received signal 2 (SIGINT), stopping...
 14-Oct-22 17:12:35 INFO: Scheduler has been shut down
+15-Oct-22 18:41:19 INFO: Scheduler started
+15-Oct-22 18:41:37 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 1
+15-Oct-22 18:41:44 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅпїЅпїЅпїЅ
+15-Oct-22 18:41:49 INFO: пїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅпїЅпїЅпїЅ
+15-Oct-22 18:41:57 INFO: пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: 8905646565
+15-Oct-22 18:42:10 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅпїЅ
+15-Oct-22 18:42:10 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 144, in create_comment
+    create.write_json(person)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\create.py", line 33, in write_json
+    last_id = int(data[len(data)-1]["id"])
+IndexError: list index out of range
+15-Oct-22 18:42:41 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 18:42:41 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 144, in create_comment
+    create.write_json(person)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\create.py", line 33, in write_json
+    last_id = int(data[len(data)-1]["id"])
+IndexError: list index out of range
+15-Oct-22 18:42:53 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 18:42:53 INFO: Scheduler has been shut down
+15-Oct-22 18:43:04 INFO: Scheduler started
+15-Oct-22 18:43:13 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 2
+15-Oct-22 18:43:18 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅ
+15-Oct-22 18:43:18 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 18:43:28 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: 2
+15-Oct-22 18:43:28 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 18:43:31 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 18:43:31 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 18:43:33 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /cancel
+15-Oct-22 18:43:33 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 18:43:34 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 18:43:34 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 18:45:10 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 18:45:10 INFO: Scheduler has been shut down
+15-Oct-22 18:45:20 INFO: Scheduler started
+15-Oct-22 18:45:31 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 3
+15-Oct-22 18:45:31 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 63, in phonebook_option
+    update.message.reply_text(f'пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {len(all_contacts)}')
+TypeError: object of type 'NoneType' has no len()
+15-Oct-22 18:57:25 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+15-Oct-22 18:57:36 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 1
+15-Oct-22 21:27:11 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 21:27:23 INFO: пїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 21:27:33 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 21:27:33 INFO: Scheduler has been shut down
+15-Oct-22 21:27:51 INFO: Scheduler started
+15-Oct-22 21:28:10 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 3
+15-Oct-22 21:28:10 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 63, in phonebook_option
+    update.message.reply_text(f'пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {len(all_contacts)}')
+TypeError: object of type 'NoneType' has no len()
+15-Oct-22 21:28:59 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 21:28:59 INFO: Scheduler has been shut down
+15-Oct-22 21:34:17 INFO: Scheduler started
+15-Oct-22 21:34:30 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 3
+15-Oct-22 21:34:30 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 63, in phonebook_option
+    update.message.reply_text(f'пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {len(all_contacts)}')
+TypeError: object of type 'NoneType' has no len()
+15-Oct-22 21:36:10 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 21:36:10 INFO: Scheduler has been shut down
+15-Oct-22 21:36:36 INFO: Scheduler started
+15-Oct-22 21:36:47 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 3
+15-Oct-22 21:36:47 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 63, in phonebook_option
+    update.message.reply_text(f'пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {len(all_contacts)}')
+TypeError: object of type 'NoneType' has no len()
+15-Oct-22 21:40:25 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+15-Oct-22 21:40:31 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 2
+15-Oct-22 21:40:45 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅ
+15-Oct-22 21:40:45 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:40:58 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅпїЅпїЅ
+15-Oct-22 21:40:58 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:41:00 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: 453
+15-Oct-22 21:41:00 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:41:10 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /cancel
+15-Oct-22 21:41:10 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:41:12 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 21:41:12 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:41:18 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /cancel
+15-Oct-22 21:41:18 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\\phone_db_directory.json'
+15-Oct-22 21:41:21 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: /start
+15-Oct-22 21:41:21 ERROR: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\xo4yw\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\main.py", line 161, in search_contact
+    if check.check_directory():                                     #пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  File "C:\Users\xo4yw\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\HomePhyton\PhoneBook_TG\Telegram_phonebook\check.py", line 26, in check_directory
+    with open(dbFilename, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'DB_Directory\ecto\phone_db_dirry.json'
+15-Oct-22 21:41:24 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 21:41:24 INFO: Scheduler has been shut down
+15-Oct-22 21:43:34 INFO: Scheduler started
+15-Oct-22 21:43:42 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 3
+15-Oct-22 21:43:58 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ NezoideN: 2
+15-Oct-22 21:44:05 INFO: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NezoideN: пїЅпїЅпїЅпїЅпїЅпїЅ
+15-Oct-22 21:48:27 INFO: Комментарий NezoideN: Корлев Кирил +654 нет
+15-Oct-22 21:48:39 INFO: Комментарий NezoideN: 2
+15-Oct-22 21:48:46 INFO: Комментарий NezoideN: 4
+15-Oct-22 21:48:57 : {'id': 17, 'surname': 'РљРѕСЂР»РµРІ', 'name': 'РљРёСЂРёР»', 'tel': '+654', 'description': 'С‡СѓРІР°Рє'}; Contact change;new contact;
+15-Oct-22 21:49:40 INFO: Пользователь NezoideN завершил работу со справочником.
+15-Oct-22 21:49:52 INFO: Выбрана опция NezoideN: 2
+15-Oct-22 21:50:04 INFO: Комментарий NezoideN: ПЕ
+15-Oct-22 21:50:12 INFO: Комментарий NezoideN: Петров Петр 516564 привет
+15-Oct-22 21:50:17 INFO: Комментарий NezoideN: 2
+15-Oct-22 21:50:19 INFO: Комментарий NezoideN: 3
+15-Oct-22 21:50:24 : {'id': 16, 'surname': 'РџРµС‚СЂРѕРІ', 'name': 'РџРµС‚СЂ', 'tel': '1235467', 'description': 'РїСЂРёРІРµС‚'}; Contact change;new contact;
+15-Oct-22 22:17:05 INFO: Received signal 2 (SIGINT), stopping...
+15-Oct-22 22:17:05 INFO: Scheduler has been shut down
